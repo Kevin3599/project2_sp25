@@ -1,0 +1,130 @@
+{
+    "Humble Administrator's Garden": {
+        "text": "You are walking through the tranquil paths of the Humble Administrator's Garden, surrounded by ponds and lotus flowers.",
+        "moves": {
+            "west": "Suzhou Museum",
+            "south": "Lingering Garden"
+        },
+        "objects": [
+            {
+                "name": "jade hairpin",
+                "type": "special"
+            }
+        ]
+    },
+    "Lingering Garden": {
+        "text": "Ancient corridors and beautifully framed views make this garden feel endless.",
+        "moves": {
+            "north": "Humble Administrator's Garden",
+            "south": "Tiger Hill"
+        },
+        "objects": [
+            {
+                "name": "stone flute",
+                "type": "normal"
+            }
+        ]
+    },
+    "Tiger Hill": {
+        "text": "The leaning pagoda towers above you. Legends of swords and kings linger in the air.",
+        "moves": {
+            "north": "Lingering Garden",
+            "east": "Shantang Street"
+        },
+        "objects": [
+            {
+                "name": "ancient coin",
+                "type": "special"
+            }
+        ]
+    },
+    "Suzhou Museum": {
+        "text": "You step into a blend of modern and traditional architecture designed by I.M. Pei.",
+        "moves": {
+            "east": "Humble Administrator's Garden",
+            "south": "Pingjiang Road"
+        },
+        "objects": [
+            {
+                "name": "museum brochure",
+                "type": "normal"
+            }
+        ]
+    },
+    "Pingjiang Road": {
+        "text": "Stone pavements line this old street, with cafes and canals running alongside.",
+        "moves": {
+            "north": "Suzhou Museum",
+            "south": "Shantang Street"
+        },
+        "objects": [
+            {
+                "name": "bamboo fan",
+                "type": "special"
+            }
+        ]
+    },
+    "Shantang Street": {
+        "text": "Boats float by as red lanterns glow above the bustling souvenir shops.",
+        "moves": {
+            "north": "Pingjiang Road",
+            "west": "Tiger Hill",
+            "east": "Suzhou Silk Museum"
+        },
+        "objects": [
+            {
+                "name": "silk scroll",
+                "type": "normal"
+            }
+        ]
+    },
+    "Suzhou Silk Museum": {
+        "text": "Silkworms and ancient looms tell the story of Suzhou\u2019s legacy of silk.",
+        "moves": {
+            "west": "Shantang Street",
+            "east": "Jinji Lake"
+        },
+        "objects": [
+            {
+                "name": "silk cocoon",
+                "type": "special"
+            }
+        ]
+    },
+    "Jinji Lake": {
+        "text": "Waves glisten under the skyline. Skyscrapers reflect in the vast lake surface.",
+        "moves": {
+            "west": "Suzhou Silk Museum",
+            "north": "Suzhou Center Mall"
+        },
+        "objects": [
+            {
+                "name": "water bottle",
+                "type": "normal"
+            }
+        ]
+    },
+    "Suzhou Center Mall": {
+        "text": "Luxury boutiques and delicious smells greet you in this modern shopping paradise.",
+        "moves": {
+            "south": "Jinji Lake",
+            "east": "Tongli Ancient Town"
+        },
+        "objects": [
+            {
+                "name": "shopping bag",
+                "type": "special"
+            }
+        ]
+    },
+    "Tongli Ancient Town": {
+        "text": "You have arrived at the peaceful water town of Tongli. Cobblestone paths and arched bridges welcome you.",
+        "moves": {},
+        "objects": [
+            {
+                "name": "tea set",
+                "type": "normal"
+            }
+        ]
+    }
+}
